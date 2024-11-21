@@ -1,0 +1,143 @@
+/* 메인 콘텐츠 */
+section#main {
+    
+}
+/* 메인 영상*/
+
+section.container {
+margin-top: 35px;
+margin-left: 255px;
+}
+
+section.container #bowen{
+   height: 405px;
+}
+section.container #holland{
+   height: 405px;
+}
+section.container  #hwang{
+   height: 405px;
+}
+/* 사이드 바 */
+
+aside {
+   text-align: left;
+    border-left: 1px solid black;
+    margin-top: 26px;
+    height: 1501px;
+    background-color: white;
+    width: 300px;
+    position: absolute; /* 수정된 부분 */
+    top: 120px; /* 수정된 부분, 헤더의 높이에 따라 조절하세요 */
+    right: 0;
+}
+/* 날씨 API */
+.card{
+   background-color: rgb(79, 95, 117);
+   border: 1px solid black;
+   border-radius: 5px;
+   margin: auto;
+   margin-top: 50px;
+    margin-left: 40px;
+    display: grid;
+    place-items: center; /* 수평 및 수직 가운데 정렬 */
+    width: 220px;
+    height: 380px;
+    position: fixed;
+    color:ghostwhite;
+}
+
+#humidity{
+   font-size: 16px;
+    font-weight: bold;
+    color:ghostwhite;
+    margin-top: 10px;
+}
+.card img,
+.card p {
+    margin: 0 0; /* 상하 여백 조절 */
+}
+.card img{
+   height: 85px;
+   width: 85px;
+}
+
+#banner {
+   margin-top : 30px;
+}
+
+/* 스포츠 기사 */
+
+section#single {
+    height:1052px;
+    width: 1173px;
+    margin-top:20px;
+    border-top:solid 1px  black;
+}
+section#single h4#sports {
+    color:ghostwhite;
+    background-color: rgb(79, 95, 117);
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    line-height: 35px; /* 텍스트 세로 가운데 정렬을 위해 추가 */
+    border-bottom: solid 1px black ;
+}
+
+section#single .item{
+    float:left;
+    text-align:center;
+    margin:50px 0 0 32px;
+}
+section#single .item .subject{
+    margin-top:10px;
+    color:black;
+}
+section#single .item .comment{
+    margin-top:5px;
+}
+section#single .item .price{
+    margin-top:5px;
+    font-weight:bold;
+    color:#00258f;
+}
+.news {
+margin: 20px;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s ease;
+width: 1090px;
+overflow: hidden; /* 부모 요소의 내부를 자식 요소 넘치는 부분에서 가리기 */
+}
+.news:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+      float: left;
+      margin-right: 10px; /* 이미지와 텍스트 간격 조절 */
+}
+
+.image-container img {
+      width: 160px; /* 원하는 이미지 너비로 조절하세요 */
+      height: auto;
+      border-radius: 8px;
+}
+
+.text-container {
+      overflow: hidden; /* 텍스트 컨테이너를 이미지 옆에 배치하기 위해 오버플로우 제어 */
+      width: 890px;
+}
+
+.news a {
+      text-decoration: none;
+      color: #333;
+}
+
+.news p {
+      margin: 0;
+      font-size: 16px;
+      font-weight: bold;
+}

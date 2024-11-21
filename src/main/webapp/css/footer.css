@@ -1,0 +1,79 @@
+    footer {
+        overflow: visible;
+        display: flex; /* 부모 요소를 Flex 컨테이너로 설정 */
+        flex-wrap: nowrap; /* 자식 요소를 강제로 한 줄에 나열하도록 설정 */
+        background-color: rgb(39, 55, 77);
+        height: 100px; /* 원하는 높이로 조절 */
+        bottom: 0;
+        border-top: solid 1px black;
+      }
+
+      #footer h2 {
+      color:ghostwhite;
+        float: left;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-left: 100px;
+        margin-top: 20px;
+      }
+
+      #etc {
+        float: left; /* 추가된 부분: div를 왼쪽으로 띄움 */
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 130px;
+        padding-left: 15px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+        border: 20px;
+        color:ghostwhite;
+      }
+
+      #etc p {
+        white-space: nowrap;
+      text-overflow: ellipsis;
+        font-size: 11px;
+      }
+
+      #youtube {
+        display: inline-block; /* 추가된 부분 */
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-left: 10px;
+        border-right: 10px;
+        width: 80px;
+        height: 50px;
+        vertical-align: top; /* 추가된 부분 */
+      }
+
+       #facebook {
+        display: inline-block; /* 추가된 부분 */
+        margin-top: 40px;
+        margin-left: 15px;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-left: 10px;
+        border-right: 10px;
+        width: 57px;
+        height: 33px;
+        vertical-align: top; /* 추가된 부분 */
+      }
+
+       #instagram {
+        display: inline-block; /* 추가된 부분 */
+        margin-top: 42px;
+        margin-left: 10px;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-left: 10px;
+        border-right: 10px;
+        width: 54px;
+        height: 29px;
+        vertical-align: top; /* 추가된 부분 */
+
+      }

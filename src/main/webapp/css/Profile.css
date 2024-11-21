@@ -1,0 +1,70 @@
+table {
+    width: 40%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Header Styles */
+th {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Cell Styles */
+td, th {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+/* Row Hover Effect */
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Table Container Shadow */
+table {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Table Styling */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        padding: 10px;
+    }
+}
+.profile {
+        background-color: black;
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px; /* 상단 여백 추가 */
+        margin-right: 20px; /* 오른쪽 여백 추가 */
+    }
+
+    .profile {
+        background-color: lightgray;
+    }
+
+    /* 부모 요소에 대한 스타일 추가하여 가로 정렬 */
+    form {
+        display: flex;
+        justify-content: flex-end; /* 오른쪽 정렬 */
+    }
+#Profile_table{
+	min-height: 440px;
+}
+#Profile_main{
+	margin-top: 30px;
+    padding-top: 1px;
+}

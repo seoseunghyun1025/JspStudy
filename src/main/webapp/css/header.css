@@ -1,0 +1,130 @@
+@charset "EUC-KR";
+header {
+    height:125px;
+}
+header #top {
+    width:990px;
+    margin:0 auto;
+    margin-top: 10px;
+/* border:solid 1px #0000ff; */
+}
+header #logo {
+    float:left;
+}
+
+/* 상단 메뉴 */
+header #top_menu {
+    float:right;
+    margin-top:25px;
+/* border:solid 1px #000000; */
+}
+header #top_menu a:link {
+    font-size:11px;
+    color:#888888;
+}
+header #top_menu a:visited {
+    font-size:11px;
+    color:#888888;
+}
+header #top_menu a:hover {
+    font-size:11px;
+    color:#888888;
+}
+header #top_menu a:active {
+    font-size:11px;
+    color:#888888;
+}
+header #top_menu li.green a:link {
+    color: gray;
+}
+header #top_menu li.green a:visited {
+    color:gray;
+}
+header #top_menu li.green a:hover {
+    color:gray;
+}
+header #top_menu li.green a:active {
+    color:gray;
+}
+header #top_menu li {
+    display:inline;
+    margin-left:10px;
+}
+/* 메인 메뉴 */
+header #main_menu {
+    height:50px;
+    margin-top:15px;
+    background-color: rgb(39, 55, 77);
+    border-bottom: solid 1px black;
+    font-size: 16px;
+/* border:solid 1px #0000ff; */
+}
+header #main_menu ul {
+    width:990px;
+    margin:auto;
+/* border:solid 1px #ff0000; */
+    padding-top:15px;
+    text-align:center;
+}
+header #main_menu li {
+    display:inline;
+    margin:0 57px;
+}
+header #main_menu a:link {
+    color:ghostwhite;
+    
+}
+header #main_menu a:visited {
+    color:ghostwhite;
+    
+}
+header #main_menu a:hover {
+    color:ghostwhite;
+    
+}
+header #main_menu a:active {
+    color:ghostwhite;
+    
+}
+.list {
+    background-color: rgb(39, 55, 77); /* 배경 색을 원하는 색상 코드로 지정하세요. */
+    color: ghostwhite; /* 글씨 색을 원하는 색상 코드로 지정하세요. */
+    border: none; /* 테두리를 없앱니다. */
+}
+/* 드롭다운 버튼 스타일링 */
+#profileDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* 드롭다운 콘텐츠 스타일링 */
+#profileMenu {
+  /* 기존 스타일 유지 */
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  right: 0;
+  width: 150px; /* 적절한 너비로 조절 */
+  text-align: center;
+}
+
+
+/* 드롭다운 내부 링크 스타일링 */
+#profileMenu a {
+  color: rgb(192, 192, 192); /* 링크 색상 설정 */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* 드롭다운 내부 링크 호버 시 스타일링 */
+#profileMenu a:hover {
+  background-color: #f1f1f1; /* 호버 시 배경색 설정 */
+}
+
+/* 드롭다운 버튼을 호버 시 드롭다운 내부를 표시하도록 설정 */
+#profileDropdown:hover #profileMenu {
+  display: block;
+}

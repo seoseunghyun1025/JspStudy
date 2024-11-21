@@ -1,0 +1,65 @@
+table {
+    width: 40%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 60px;
+    font-size: 12px;
+}
+
+/* Header Styles */
+th {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Cell Styles */
+td, th {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+/* Row Hover Effect */
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Table Container Shadow */
+table {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#maketable{
+	min-height: 420px;
+	text-align: center; /* 부모 요소를 가운데 정렬 */
+}
+/* 스타일을 적용할 클래스나 태그 선택자를 지정합니다. */
+.up {
+    /* 공통 스타일 */
+    padding: 10px 20px; /* 버튼 내부 여백 */
+    margin: 5px; /* 버튼 간격 */
+    text-decoration: none; /* 링크의 밑줄 제거 */
+
+    /* 버튼 스타일 */
+    background-color: #3498db; /* 배경색 */
+    color: #fff; /* 글자색 */
+    border: none; /* 테두리 없음 */
+    border-radius: 4px; /* 둥근 테두리 */
+
+    /* 링크 스타일 */
+    color:white; /* 링크 글자색 */
+}
+
+/* 버튼에 마우스 호버 시 스타일 변경 */
+.up  {
+    background-color:gray; /* 호버 시 배경색 변경 */
+}
+
+/* 링크에 마우스 호버 시 스타일 변경 */
+.up:hover {
+    color:gray; /* 호버 시 글자색 변경 */
+}

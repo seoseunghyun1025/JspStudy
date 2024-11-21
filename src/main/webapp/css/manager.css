@@ -1,0 +1,42 @@
+@charset "EUC-KR";
+
+/* Cell Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+.manager{
+	background-color: black;
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        background-color: lightgray;
+}
+
+#Manager_table{
+	min-height: 400px;
+}
+
+#Manager_main{
+	margin-top: 50px;
+    padding-top: 1px;
+}
+
+.delete {
+	font-size: 16px;
+	cursor: pointer;
+	padding: 6px;
+}

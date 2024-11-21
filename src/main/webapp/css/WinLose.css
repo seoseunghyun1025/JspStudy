@@ -1,0 +1,130 @@
+@charset "EUC-KR";
+
+ul {
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+        }
+
+#main {
+	height: 800px;
+    position: relative;
+    
+        }
+
+#main_bar {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 685px;
+    width: 1100px;
+    background-color: lightgray;
+    z-index: 1;
+        }
+
+#showvboo_1_bar {
+	position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 1000px;
+    z-index: 2;
+    margin-top: 20px;
+    display: flex; /* 추가 */
+        }
+
+.showvboo_1_bar_divide1, .showvboo_2_bar_divide1, .showvboo_3_bar_divide1,.showvboo_4_bar_divide1,.showvboo_5_bar_divide1{
+	background-color: rgb(110, 110, 110);
+    height: 103px;
+    width: 500px;
+    float: left;
+        }
+
+.showvboo_1_bar_divide2, .showvboo_2_bar_divide2, .showvboo_3_bar_divide2, .showvboo_4_bar_divide2, .showvboo_5_bar_divide2{
+    background-color: rgb(110, 110, 110);
+    height: 103px;
+    width: 500px;
+    float: left;
+        }
+
+#showvboo_2_bar {
+    position: absolute;
+    margin-top: 130px;
+    left: 50px;
+
+        }
+
+#showvboo_3_bar {
+     position: absolute;
+     margin-top: 260px;
+     left: 50px;
+        }
+
+#showvboo_4_bar {
+	position: absolute;
+    margin-top: 390px;
+    left: 50px;
+        }
+
+#showvboo_5_bar {
+    position: absolute;
+    margin-top: 520px;
+    left: 50px;
+        }
+        
+.team1, .team3, .team5, .team7, .team9 {
+	width: 100px;
+	height: 100px;
+}
+
+.team2, .team4, .team6 , .team8, .team10{
+	width: 100px;
+	height: 100px;
+	float: right;
+}
+
+.logo{
+	width: 95px;
+	height: 93px;
+	float: right;
+}
+#reset{
+	display: block;
+    margin: auto; /* 세로로 가운데 정렬 */
+    width: 90px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+.text1{
+	width: 70px;
+	height: 50px;
+	font-size:16px;
+	margin-left: 420px;
+	font-weight: bold;
+
+}
+.text{
+	width: 70px;
+	height: 70px;
+	font-size:16px;
+	margin-left: 400px;
+	border-bottom: 10px;
+	font-weight: bold;
+}
+.btn {
+    font-size: 14px;
+    padding: 8px 16px; /* 상하 8px, 좌우 16px의 여백 */
+    background-color: black; /* 배경색 */
+    color: white; /* 글자색 */
+    border: none; /* 테두리 없음 */
+    border-radius: 4px; /* 테두리 반경 */
+    cursor: pointer;
+}
+.day {
+	font-size: 16px;
+}
+.text3{
+	font-size: 22px;
+}

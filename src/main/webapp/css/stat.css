@@ -1,0 +1,49 @@
+/* stat.css */
+
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    width: 97%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Add additional styles as needed */
+
+/* 각 열에 특정 너비 지정 */
+th:nth-child(1), td:nth-child(1) {
+    width: 5%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 5%;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 30%;
+    font-weight: bold;
+}
+th:nth-child(10), td:nth-child(10) {
+    width: 15%;
+    font-weight: bold;
+}
+
+.text {
+	margin-top: 20px;
+	margin-left: 25px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.soccerimg{
+	width: auto; height: auto;
+}

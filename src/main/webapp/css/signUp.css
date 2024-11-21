@@ -1,0 +1,63 @@
+@charset "EUC-KR";
+		body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px; /* 수정: 폼 태그 너비 조정 */
+            text-align: center;
+        }
+
+        input {
+            width: calc(100% - 22px); /* 수정: 100%에서 여백 조정 */
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: calc(30% - 22px);
+            padding: 10px;
+            background-color: gray;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button[type="submit"]{
+            box-align: right;
+        }
+        button:hover {
+            background-color: lightgray;
+        }
+
+        .login{
+            text-decoration: none;
+            margin-top: 5px;
+            color: black;
+            display: block;
+            text-align: left;
+        }
+
+        #idInput {
+            width: calc(70% - 22px); /* 수정: 70%로 늘임, 여백 조정 */
+            margin-right: 10px;
+        }
+        
+        .container{
+          width:1270px;
+          margin:0 auto;
+       }
